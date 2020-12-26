@@ -4,18 +4,16 @@ import Layout from "../components/layout"
 import Head from "../components/head"
 import Styles from "../styles/index.scss"
 
-const IndexPage = () => {
+const NotFound = () => {
   return (
     <Layout>
-      <Head title="Home" />
-      <h1>Hello.</h1>
-      <h2>My name is Zara and I am a full-stack web developer.</h2>
-
+      <Head title="404" />
+      <h1>Page not found!</h1>
       <p>
-        Need a developer? <Link to="/About">Contact Me</Link>
+        <Link to="/">Head Home</Link>
       </p>
     </Layout>
   )
 }
 
-export default IndexPage
+export default NotFound
